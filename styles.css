@@ -27,7 +27,7 @@ om de tekst kleiner te maken */
 /* 3: Gebruik een type selector om alle headings op de pagina (<h1>, <h2> en <h3>) in een ander lettertype weer te geven.
 Gebruik de declaratie "font-family: 'Noto Sans JP', sans-serif;" */
 
-|h1,h2,h3, {
+|h1,h2,h3 {
     font-family: "Noto Sans JP", sans-serif;
 }
 
@@ -35,6 +35,9 @@ Gebruik de declaratie "font-family: 'Noto Sans JP', sans-serif;" */
 /* 4: De header afbeelding is op dit moment te groot. Geef de <img>-tag in de header van het HTML-document een passende id-naam,
 zodat we de declaratie "width: 100%;" in de CSS erop toe te passen */
 
+.main-image {
+    width: 100%;
+}
 
 
 /* 5: Er staan meerdere links in het document. Zorg ervoor dat alléén de links in de navigatiebalk de tekstkleur "indianred" krijgen.
