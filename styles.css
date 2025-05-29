@@ -65,6 +65,9 @@ Tip: gebruik hier een combinator voor. */
 /* 8: De buttons lijken op dit moment te veel op elkaar. Zorg ervoor dat je de rechter button een achtergrondkleur van "indianred"
 kunt geven. Tip: gebruik hier een combinator voor. */
 
+button + button {
+    color: indianred;
+}
 
 
 /* 9: Geef de <input>-tag van het formulier van het HTML-document een passende class-naam. Zorg ervoor dat dit veld de
