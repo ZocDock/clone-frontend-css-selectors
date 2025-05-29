@@ -50,7 +50,9 @@ Tip: gebruik hier een combinator voor */
 /* 6: Zorg ervoor dat alle de links binnen de <main>-tag naar de tekstkleur "darkgreen" veranderen, wanneer je er met jouw muis
 overheen hovert. Tip: hergebruik hier naast een combinator ook een pseudo-class voor. */
 
-
+.places-to-visit:hover ul li {
+    color: darkgreen;
+}
 
 /* 7: Geef alle list-items onder het kopje <h2>Best places to visit</h2> de tekstkleur "forestgreen".
 Tip: gebruik hier een combinator voor. */
