@@ -19,6 +19,9 @@ Gebruik dit om de tekstkleur van de titels te veranderen naar grijs, met de decl
 /* 2: Geef de <span>-tag in de footer van het HTML-document een passende class-naam. Gebruik de declaratie "font-size: 10px;"
 om de tekst kleiner te maken */
 
+.footer {
+    font-size: 10px;
+}
 
 
 /* 3: Gebruik een type selector om alle headings op de pagina (<h1>, <h2> en <h3>) in een ander lettertype weer te geven.
