@@ -43,7 +43,9 @@ zodat we de declaratie "width: 100%;" in de CSS erop toe te passen */
 /* 5: Er staan meerdere links in het document. Zorg ervoor dat alléén de links in de navigatiebalk de tekstkleur "indianred" krijgen.
 Tip: gebruik hier een combinator voor */
 
-
+ul > li {
+    color: indianred;
+}
 
 /* 6: Zorg ervoor dat alle de links binnen de <main>-tag naar de tekstkleur "darkgreen" veranderen, wanneer je er met jouw muis
 overheen hovert. Tip: hergebruik hier naast een combinator ook een pseudo-class voor. */
