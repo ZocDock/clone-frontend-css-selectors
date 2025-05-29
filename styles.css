@@ -57,6 +57,9 @@ overheen hovert. Tip: hergebruik hier naast een combinator ook een pseudo-class 
 /* 7: Geef alle list-items onder het kopje <h2>Best places to visit</h2> de tekstkleur "forestgreen".
 Tip: gebruik hier een combinator voor. */
 
+.places-to-visit ul li {
+    color: forestgreen;
+}
 
 
 /* 8: De buttons lijken op dit moment te veel op elkaar. Zorg ervoor dat je de rechter button een achtergrondkleur van "indianred"
