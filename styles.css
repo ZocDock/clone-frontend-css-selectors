@@ -74,4 +74,7 @@ button + button {
 achtergrondkleur "forestgreen" krijgt, wanneer de gebruiker het veld aanklikt.
 Tip: gebruik hier naast een class-selector, ook een pseudo-class voor.*/
 
+.input-email:focus {
+    background-color: forestgreen;
+}
 
